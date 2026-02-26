@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add `disableForTesting` option to `useNavigationGuard` to make the hook a complete no-op without requiring `NavigationGuardProvider` context, intended for test and storybook environments.
+- Support Next.js 16 as peer dependency and add E2E CI targets for v16.0 and v16.1.
 
 ## [0.2.0] - 2025-06-28
 
