@@ -21,7 +21,8 @@
     "check:packaging": "pnpm dlx @arethetypeswrong/cli --pack .",
     "e2e": "playwright test",
     "e2e:ui": "playwright test --ui",
-    "e2e:install": "playwright install"
+    "e2e:install": "playwright install",
+    "prepare": "tsc -p ."
   },
   "keywords": [],
   "author": "ypresto <yuya.presto@gmail.com>",
